@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #222;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+nav li {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.logo img{
+    height: 92px;
+    max-width: auto;
+    align-items: center;
+}
+
+button#btlogin {
+    background-color: rgba(60, 117, 191, 0.819);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.4s;
+}
+
+button#btlogin:hover{
+    transform: scale(1.05);
+    
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+article {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#buscar{
+    width: 60%;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    background-color: #222;
+    color: white;
+    padding-left: 20px;
+}
+
+
+
+button {
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 9px;
+    border: none;
+    font-style: normal;
+    margin-right: 8px;
+    transition: 0.4s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+footer#sobre{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    background-color: #333;
+    text-align: center;
+    display: block;
+    color: white;
+    padding-top: 15px;
+    
+}
+
+footer#sobre a{
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+footer#sobre a:hover{
+    background-color: #111;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+
+
+
+
